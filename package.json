@@ -19,7 +19,8 @@
     "@slidev/types": "^52.16.0"
   },
   "devDependencies": {
-    "@slidev/cli": "^52.16.0"
+    "@slidev/cli": "^52.16.0",
+    "vue": "^3.5.40"
   },
   "//": "Learn more: https://sli.dev/guide/write-theme.html",
   "slidev": {
@@ -30,5 +31,8 @@
         "mono": "Fira Code"
       }
     }
+  },
+  "peerDependencies": {
+    "vue": "^3.5.40"
   }
 }
