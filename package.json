@@ -27,8 +27,8 @@
     "colorSchema": "both",
     "defaults": {
       "fonts": {
-        "sans": "Poppins, sans-serif",
-        "mono": "Fira Code"
+        "sans": "Poppins",
+        "mono": "JetBrains Mono"
       }
     }
   },
