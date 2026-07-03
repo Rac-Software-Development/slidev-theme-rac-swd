@@ -1,0 +1,31 @@
+:root {
+  --pt: 1.03px;
+
+  /* text sizing */
+  --body-text: calc(16 * var(--pt));
+  --heading: calc(44 * var(--pt));
+
+  --title-xl: calc(72 * var(--pt));
+  --line-height-xl: calc(74.4 * var(--pt));
+  --title-l: calc(60 * var(--pt));
+  --line-height-l: calc(66 * var(--pt));
+  --title-m: calc(54* var(--pt));
+
+  --subtitle: calc(18 * var(--pt));
+}
+
+.slidev-layout {
+  font-size: var(--body-text);
+  line-height: 1.0;
+
+  p {
+    line-height: inherit;
+    font-size: inherit;
+  }
+
+  h1 {
+    font-size: var(--heading);
+    line-height: 0.9;
+    font-weight: bold;
+  }
+}

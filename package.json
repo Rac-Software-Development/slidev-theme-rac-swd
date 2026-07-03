@@ -28,7 +28,8 @@
     "defaults": {
       "fonts": {
         "sans": "Poppins",
-        "mono": "JetBrains Mono"
+        "mono": "JetBrains Mono",
+        "weights": "400,700"
       }
     }
   },
