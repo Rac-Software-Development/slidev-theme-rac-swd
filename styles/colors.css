@@ -1,0 +1,32 @@
+:root {
+  /* primary color */
+  --slidev-theme-primary: var(--slidev-theme-primary--1);
+  --slidev-theme-primary-3: #d8eef7;
+  --slidev-theme-primary-2: #b1ddef;
+  --slidev-theme-primary-1: #89cce7;
+  --slidev-theme-primary--1: #3caad7;
+  --slidev-theme-primary--2: #2384ab;
+  --slidev-theme-primary--3: #165873;
+  /* secondary color */
+  --slidev-theme-secondary: var(--slidev-theme-secondary--1);
+  --slidev-theme-secondary-3: #f5cdd7;
+  --slidev-theme-secondary-2: #eb9daf;
+  --slidev-theme-secondary-1: #e36a86;
+  --slidev-theme-secondary--1: #b62245;
+  --slidev-theme-secondary--2: #881935;
+  --slidev-theme-secondary--3: #5b1203;
+  /* tertiary color */
+  --slidev-theme-tertiary: var(--slidev-theme-tertiary--1);
+  --slidev-theme-tertiary-3: #fcf0d8;
+  --slidev-theme-tertiary-2: #fae0b1;
+  --slidev-theme-tertiary-1: #f7d08b;
+  --slidev-theme-tertiary--1: #f2b23e;
+  --slidev-theme-tertiary--2: #d68f0f;
+  --slidev-theme-tertiary--3: #8e5f0b;
+
+  --slidev-theme-text: black;
+  --slidev-theme-text--inverse: white;
+  --slidev-theme-background: white;
+  --slidev-theme-background--primary: var(--slidev-theme-primary);
+  --slidev-theme-background--secondary: black;
+}
