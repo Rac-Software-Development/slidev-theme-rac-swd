@@ -2,22 +2,38 @@
 @import './typography.css';
 
 .slidev-layout {
-  &.cover,
-  &.intro {
-    @apply h-full grid;
+  background-color: var(--slidev-theme-background);
+  color: var(--slidev-theme-text);
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+  padding-top: 2.1rem;
+  padding-bottom: 2.1rem;
 
-    h1 {
-      @apply text-6xl leading-20;
-    }
+  h1 {
+    color: var(--slidev-theme-primary);
+  }
 
-    h1 + p {
-      @apply -mt-2 opacity-50 mb-4;
-    }
+  .content {
+    z-index: 2;
+  }
+}
 
-    p + h2,
-    ul + h2,
-    table + h2 {
-      @apply mt-10;
-    }
+.slidev-layout.logo {
+  &::before {
+    content: '';
+    position:absolute;
+    bottom: 0;
+    right: 0;
+    height: 7.5rem;
+    aspect-ratio: 7/3;
+    background-image: url('../assets/RAc-Logo-2025-rechts-zwart.png');
+    background-size: contain;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    z-index: 10;
+  }
+
+  &.logo--inverse::before {
+    background-image: url('../assets/RAc-Logo-2025-rechts-wit.png');
   }
 }

@@ -1,19 +1,31 @@
 ---
 theme: ./
-background: https://cover.sli.dev
 contextMenu: false
+layout: cover-text
 ---
 
-# Slidev Theme Starter
+# Titelblad <br> tekst 72pt
 
-Presentation slides for developers
+Subtitel Poppins 18pt
 
-<div class="pt-12">
-  <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" flex="~ justify-center items-center gap-2" hover="bg-white bg-opacity-10">
-    Press Space for next page <div class="i-carbon:arrow-right inline-block"/>
-  </span>
-</div>
+---
+layout: cover-bar
+---
 
+# Titelbalk Blauw 54pt
+
+Subtitel Poppins 18pt
+
+---
+layout: cover-image
+---
+
+# Titelblad afbeelding groot 60pt Poppins Bold
+
+Subtitel Poppins 18pt
+
+---
+layout: text
 ---
 
 # What is Slidev?
@@ -27,11 +39,6 @@ Slidev is a slide maker and presentation tool designed for developers. It includ
 - 🎥 **Recording** - built-in recording and camera view
 - 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
 - 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
-
-<br>
-<br>
-
-Read more about [Why Slidev?](https://sli.dev/guide/why)
 
 ---
 
@@ -73,8 +80,7 @@ function updateUser(id: number, update: Partial<User>) {
 ```
 
 ---
-layout: center
-class: "text-center"
+layout: end
 ---
 
 # Learn More
