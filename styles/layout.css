@@ -4,10 +4,11 @@
 .slidev-layout {
   background-color: var(--slidev-theme-background);
   color: var(--slidev-theme-text);
-  padding-left: 2.2rem;
-  padding-right: 2.2rem;
-  padding-top: 2.1rem;
-  padding-bottom: 2.1rem;
+
+  padding-left: 4.7rem;
+  padding-right: 4.2rem;
+  padding-top: 4.4rem;
+  padding-bottom: 6rem;
 
   h1 {
     color: var(--slidev-theme-primary);
@@ -24,7 +25,7 @@
     position:absolute;
     bottom: 0;
     right: 0;
-    height: 7.5rem;
+    height: 5.6667rem;
     aspect-ratio: 7/3;
     background-image: url('../assets/RAc-Logo-2025-rechts-zwart.png');
     background-size: contain;

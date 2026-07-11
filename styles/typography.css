@@ -1,8 +1,9 @@
 :root {
-  --pt: 1.03px;
+  --pt: 1.033333px;
 
   /* text sizing */
   --body-text: calc(16 * var(--pt));
+  --body-line-height: 1.25;
   --heading: calc(44 * var(--pt));
 
   --title-xl: calc(72 * var(--pt));
@@ -16,11 +17,12 @@
 
 .slidev-layout {
   font-size: var(--body-text);
-  line-height: 1.0;
+  line-height: var(--body-line-height);
 
   p {
     line-height: inherit;
     font-size: inherit;
+    translate: 0 calc(1rem * calc(1 - var(--body-line-height))); /* compensate for line height */
   }
 
   h1 {

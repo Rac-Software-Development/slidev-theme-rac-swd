@@ -26,19 +26,104 @@ Subtitel Poppins 18pt
 
 ---
 layout: text
+ ---
+ 
+ # What is Slidev?
+ 
+ Slidev is a slide maker and presentation tool designed for developers. It includes the following features:
+ 
+ - 📝 **Text-based** - focus on your content with Markdown, then style it later
+ - 🎨 **Themable** - themes can be shared and reused as npm packages
+ - 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
+ - 🤹 **Interactive** - embed Vue components to enhance your expressions
+ - 🎥 **Recording** - built-in recording and camera view
+ - 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
+ - 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
+
 ---
 
-# What is Slidev?
+# Voorbeeldtekst 44pt
 
-Slidev is a slide maker and presentation tool designed for developers. It includes the following features:
+Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi nem de ius dentur aut liquis ut omnitaquos molorestium quassim-ped. utemporrunt resto omnihic tendundiae voloren ihi-caborest late pra debitatur aut Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi.
 
-- 📝 **Text-based** - focus on your content with Markdown, then style it later
-- 🎨 **Themable** - themes can be shared and reused as npm packages
-- 🧑‍💻 **Developer Friendly** - code highlighting, live coding with autocompletion
-- 🤹 **Interactive** - embed Vue components to enhance your expressions
-- 🎥 **Recording** - built-in recording and camera view
-- 📤 **Portable** - export to PDF, PPTX, PNGs, or even a hostable SPA
-- 🛠 **Hackable** - virtually anything that's possible on a webpage is possible in Slidev
+Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi nem de ius dentur aut liquis ut omnitaquos molorestium quassim-ped. utemporrunt resto omnihic tendundiae voloren ihi-caborest late pra debitatur aut Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi.
+
+---
+layout: text
+columns: 2
+---
+
+# Voorbeeldtekst
+
+Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi nem de ius dentur aut liquis ut omnitaquos molorestium quassim-ped. 
+
+Utemporrunt resto omnihic tendundiae voloren ihi-caborest late pra debitatur aut Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi.
+
+---
+layout: text
+columns: 2
+column-background: primary
+---
+
+# Voorbeeldtekst
+
+Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi nem de ius dentur aut liquis ut omnitaquos molorestium quassim-ped. 
+
+Utemporrunt resto omnihic tendundiae voloren ihi-caborest late pra debitatur aut Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi.
+
+---
+layout: text
+columns: 2
+column-background: secondary
+---
+
+# Voorbeeldtekst
+
+Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi nem de ius dentur aut liquis ut omnitaquos molorestium quassim-ped.
+
+Utemporrunt resto omnihic tendundiae voloren ihi-caborest late pra debitatur aut Volor aborepudae num ipsapitas re veliquae nem repudae. 
+
+---
+layout: text
+columns: 3
+---
+
+# Voorbeeldtekst
+
+Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi nem de ius dentur aut liquis ut omnitaquos molorestium quassim-ped.
+
+Utemporrunt resto omnihic tendundiae voloren ihi-caborest late pra debitatur aut Volor aborepudae num ipsapitas re veliquae nem repudae. 
+
+Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi.
+
+---
+layout: text
+columns: 3
+column-background: primary
+---
+
+# Voorbeeldtekst
+
+Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi nem de ius dentur aut liquis ut omnitaquos molorestium quassim-ped.
+
+Utemporrunt resto omnihic tendundiae voloren ihi-caborest late pra debitatur aut Volor aborepudae num ipsapitas re veliquae nem repudae. 
+
+Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi.
+
+---
+layout: text
+columns: 3
+column-background: secondary
+---
+
+# Voorbeeldtekst
+
+Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi nem de ius dentur aut liquis ut omnitaquos molorestium quassim-ped.
+
+Utemporrunt resto omnihic tendundiae voloren ihi-caborest late pra debitatur aut Volor aborepudae num ipsapitas re veliquae nem repudae. 
+
+Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi.
+>>>>>>> conflict 1 of 1 ends
 
 ---
 
