@@ -13,7 +13,7 @@ const resolvedVariant: ComputedRef<Props['variant']> = computed(() => {
   if (!image && variant === 'image') {
     return 'text';
   }
-  return variant
+  return variant;
 })
 
 const style = computed(() => handleBackground(image))

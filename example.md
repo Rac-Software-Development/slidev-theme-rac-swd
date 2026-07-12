@@ -25,6 +25,48 @@ layout: cover-image
 Subtitel Poppins 18pt
 
 ---
+layout: text-image
+image: https://cover.sli.dev
+---
+
+# Voorbeeldtekst foto rechts
+
+Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi nem de ius dentur aut liquis ut omnitaquos molorestium quassim-ped. utemporrunt resto omnihic tendundiae voloren ihi-caborest late pra debitatur aut Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi.
+
+---
+layout: text-image-left
+image: https://cover.sli.dev
+---
+
+# Voorbeeldtekst foto links
+
+Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi nem de ius dentur aut liquis ut omnitaquos molorestium quassim-ped. utemporrunt resto omnihic tendundiae voloren ihi-caborest late pra debitatur aut Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi.
+
+---
+layout: text-image-bottom
+image: https://cover.sli.dev
+---
+
+# Voorbeeldtekst foto onder
+
+Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi nem de ius dentur aut liquis ut omnitaquos molorestium quassim-ped. utemporrunt resto omnihic tendundiae voloren ihi-caborest late pra debitatur aut Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi.
+
+---
+layout: text-image-right
+---
+
+# Voorbeeldtekst diagram rechts
+
+Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi nem de ius dentur aut liquis ut omnitaquos molorestium quassim-ped. utemporrunt resto omnihic tendundiae voloren ihi-caborest late pra debitatur aut Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi.
+
+::image::
+```mermaid
+  sequenceDiagram
+    Alice->John: Hello John, how are you?
+    Note over Alice,John: A typical interaction
+```
+
+---
 layout: text
  ---
  
@@ -42,7 +84,7 @@ layout: text
 
 ---
 
-# Voorbeeldtekst 44pt
+# Voorbeeldtekst
 
 Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi nem de ius dentur aut liquis ut omnitaquos molorestium quassim-ped. utemporrunt resto omnihic tendundiae voloren ihi-caborest late pra debitatur aut Volor aborepudae num ipsapitas re veliquae nem repudae. Puditat aut eaqui ommodit fuga. Nam estrumb fugitatecae eos voluptatum volore nobis que verro volenis quo esti sectae por autem id quodi.
 

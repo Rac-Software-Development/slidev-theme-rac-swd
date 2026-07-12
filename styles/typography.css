@@ -1,5 +1,5 @@
 :root {
-  --pt: 1.033333px;
+  --pt: 1.03333px;
 
   /* text sizing */
   --body-text: calc(16 * var(--pt));
@@ -27,7 +27,7 @@
 
   h1 {
     font-size: var(--heading);
-    line-height: 0.9;
+    line-height: 1.0;
     font-weight: bold;
   }
 }
