@@ -30,4 +30,8 @@
     line-height: 1.0;
     font-weight: bold;
   }
+
+  blockquote {
+    line-height: 1.5
+  }
 }
