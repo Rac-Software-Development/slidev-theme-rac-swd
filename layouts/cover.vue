@@ -36,13 +36,13 @@ const classes = [
 
 <style lang="css">
 .slidev-layout.cover {
-  background-color: var(--slidev-theme-background--primary);
-  color: var(--slidev-theme-text--inverse);
   display: grid;
   padding-left: 2.2rem;
   padding-right: 2.2rem;
   padding-top: 2.1rem;
   padding-bottom: 2.1rem;
+  background-color: var(--slidev-theme-background--primary);
+  color: var(--slidev-theme-text--inverse);
 
   h1 {
     color: inherit;
@@ -80,7 +80,7 @@ const classes = [
     &::before {
       content: '';
       position: absolute;
-      background-color: var(--slidev-theme-background--primary);
+      background-color:  var(--slidev-theme-primary); /* Do not color in dark mode */
       top: 75%;
       left: 0;
       right: 0;

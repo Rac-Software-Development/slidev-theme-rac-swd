@@ -29,14 +29,21 @@
     right: 0;
     height: 5.6667rem;
     aspect-ratio: 7/3;
-    background-image: url('../assets/RAc-Logo-2025-rechts-zwart.png');
     background-size: contain;
     background-position: bottom right;
     background-repeat: no-repeat;
     z-index: 10;
   }
 
-  &.logo--inverse::before {
+  html.light &::before {
+    background-image: url('../assets/RAc-Logo-2025-rechts-zwart.png');
+  }
+
+  html.dark &::before {
+    background-image: url('../assets/RAc-Logo-2025-rechts-wit.png');
+  }
+
+  html &.logo--inverse::before {
     background-image: url('../assets/RAc-Logo-2025-rechts-wit.png');
   }
 }
