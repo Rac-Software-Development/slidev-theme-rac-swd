@@ -16,10 +16,12 @@
     "screenshot": "slidev export example.md --format png"
   },
   "dependencies": {
-    "@slidev/types": "^52.16.0"
+    "@slidev/types": "^52.16.0",
+    "markdown-it-mark": "^4.0.0"
   },
   "devDependencies": {
     "@slidev/cli": "^52.16.0",
+    "vite": "^8.2.2",
     "vue": "^3.5.40"
   },
   "//": "Learn more: https://sli.dev/guide/write-theme.html",
@@ -34,6 +36,7 @@
     }
   },
   "peerDependencies": {
+    "vite": "^8.2.2",
     "vue": "^3.5.40"
   }
 }

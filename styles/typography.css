@@ -34,4 +34,12 @@
   blockquote {
     line-height: 1.5
   }
+
+  mark {
+    background: var(--slidev-theme-highlight);
+    color: var(--slidev-theme-text);
+    margin-inline: -.125em;
+    padding-inline: .125em;
+    text-shadow: 0px 0px 2px black;
+  }
 }

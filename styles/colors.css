@@ -33,6 +33,7 @@ html.light {
   --slidev-theme-background: white;
   --slidev-theme-background--primary: var(--slidev-theme-primary);
   --slidev-theme-background--secondary: var(--slidev-theme-grey);
+  --slidev-theme-highlight: var(--slidev-theme-tertiary-2);
 }
 
 html.dark {
@@ -43,4 +44,5 @@ html.dark {
   --slidev-theme-background: black;
   --slidev-theme-background--primary: var(--slidev-theme-background);
   --slidev-theme-background--secondary: var(--slidev-theme-grey);
+  --slidev-theme-highlight: var(--slidev-theme-tertiary--3);
 }
