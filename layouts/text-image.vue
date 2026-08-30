@@ -6,12 +6,26 @@ export type Props = {
   logo?: boolean,
   image?: string;
   variant?: 'bottom' | 'left' | 'right',
+  size?: 'cover' | 'contain';
 }
 
-const { logo = true, variant = 'right', image } = defineProps<Props>()
+const { logo = true, variant = 'right', image, size } = defineProps<Props>()
+
+const bestGuessBackgroundSize = (image?: string) => {
+  const pictureDefault = 'cover' as const
+  const figureDefault = 'contain' as const
+  if (!image) return pictureDefault
+
+  if (image.startsWith('data:image/svg+xml')) return figureDefault
+
+  const path = new URL(image).pathname
+  if (path.endsWith('.svg')) return figureDefault
+
+  return pictureDefault
+}
 
 const imageStyle = computed(() =>
-  handleBackground(image)
+  handleBackground(image, false, size || bestGuessBackgroundSize(image))
 );
 
 const classes = [
