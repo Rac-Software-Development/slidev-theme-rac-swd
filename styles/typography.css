@@ -18,11 +18,13 @@
 .slidev-layout {
   font-size: var(--body-text);
   line-height: var(--body-line-height);
+  --block-margin: 1rem;
 
   p {
     line-height: inherit;
     font-size: inherit;
     translate: 0 calc(1rem * calc(1 - var(--body-line-height))); /* compensate for line height */
+    margin-block: var(--block-margin);
   }
 
   h1 {
@@ -32,7 +34,13 @@
   }
 
   blockquote {
-    line-height: 1.5
+    line-height: 1.5;
+    margin-block: var(--block-margin);
+    border-radius: 0;
+    > p {
+      margin: 0;
+      translate: 0 0;
+    }
   }
 
   mark {

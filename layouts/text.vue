@@ -53,7 +53,8 @@ const classes = [
 }
 .slidev-layout.text-col--primary,
 .slidev-layout.text-col--secondary {
-  .content > p {
+  .content > p
+  .content{
     margin-top: .375rem;
     padding-top: 1.5rem;
     padding-left: 2rem;
