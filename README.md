@@ -1,8 +1,13 @@
 # Slidev Theme for Rotterdam Academy
 
+> [!WARNING]  
+> This theme is currently in alpha. Expect breaking changes and outdated documentation.
+
 ## Install
 
-Add the following frontmatter to your `slides.md`. Start Slidev then it will prompt you to install the theme automatically.
+Add the following frontmatter to your `slides.md`. 
+
+Start Slidev then it will prompt you to install the theme automatically.
 
 <pre><code>---
 theme: <b>rac-swd</b>
