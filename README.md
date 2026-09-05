@@ -5,32 +5,16 @@
 
 ## Install
 
+Install this theme by adding it via the repo URL (for the time being) to your package.json 
+
+```shell
+$ npm install https://github.com:Rac-Software-Development/slidev-theme-rac-swd.git
+```
+
 Add the following frontmatter to your `slides.md`. 
 
-Start Slidev then it will prompt you to install the theme automatically.
-
 <pre><code>---
-theme: <b>rac-swd</b>
+theme:slidev-theme-rac-swd
 ---</code></pre>
 
 Learn more about [how to use a theme](https://sli.dev/guide/theme-addon#use-theme).
-
-## Layouts
-
-This theme provides the following layouts:
-
-> TODO:
-
-## Components
-
-This theme provides the following components:
-
-> TODO:
-
-## Contributing
-
-- `pnpm install`
-- `pnpm run dev` to start theme preview of `example.md`
-- Edit the `example.md` and style to see the changes
-- `pnpm run export` to generate the preview PDF
-- `pnpm run screenshot` to generate the preview PNG
