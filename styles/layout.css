@@ -1,5 +1,6 @@
 @import './colors.css';
 @import './typography.css';
+@import './tables.css';
 
 .slidev-layout {
   background-color: var(--slidev-theme-background);

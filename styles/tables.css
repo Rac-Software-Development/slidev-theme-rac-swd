@@ -1,0 +1,12 @@
+.slidev-layout td, .slidev-layout th {
+  padding: 0.5rem;
+}
+
+.slidev-layout th {
+  font-weight: bold;
+}
+
+.slidev-layout tr:nth-child(even),
+.slidev-layout thead > tr {
+  background-color: color-mix(in srgb, var(--slidev-theme-background--secondary), transparent 75%);
+}
